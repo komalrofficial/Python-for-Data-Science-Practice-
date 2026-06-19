@@ -1,0 +1,15 @@
+num1=int(input("enter the value of first number"));
+num2=int(input("enter the value of second number"));
+num3=int(input("enter the value of third number"));
+if num1 % 2 == 0:
+    print("The first number is even."
+else:
+    print("The first number is odd.")
+if num2 % 2 == 0:
+    print("The second number is even.")
+else:
+    print("The second number is odd.")
+if num3 % 2 == 0:
+    print("The third number is even.")
+else:
+    print("The third number is odd.")
