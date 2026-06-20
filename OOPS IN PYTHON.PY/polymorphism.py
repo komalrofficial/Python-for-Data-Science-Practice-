@@ -25,6 +25,7 @@ class FDAccount(SavingAccount):
         self.__fd_acc_balance=amount
 
 class RDAccount(FDAccount):
+    
     __rd_acc_balance=80000;
     def display_balance(self):
         print(f"Your balance is{self.__rd_acc_balance}")
