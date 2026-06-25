@@ -34,11 +34,11 @@ acc.set_balance(40000)
 class Payment_Gateway(ABC):
    @abstarctmethod
    def __amount_process(self):
-      pass
+        pass
    
 class UPI(Payment_Gateway):
    def __amount_paid(self,amount):
-      print(f"your amount is (amount)")
+        print(f"your amount is (amount)")
 
 def amount_paid(self,amount):
       if amount>0 and amount<50000:
